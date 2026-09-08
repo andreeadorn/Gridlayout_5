@@ -2,7 +2,6 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover;
   padding: 10px;
 }
 .grid_1 {
@@ -12,6 +11,8 @@ img {
   gap: 10px;  
   img {
     padding: 0px;
+    align-self: stretch;
+    object-fit: cover;
   }
 }
 #img_1 {
